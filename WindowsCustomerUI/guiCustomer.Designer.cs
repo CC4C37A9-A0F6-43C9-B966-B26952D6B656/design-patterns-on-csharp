@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.ddlType = new System.Windows.Forms.ComboBox();
+            this.cmbCustomerType = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtBillAmount = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,16 +57,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Customer type";
             // 
-            // ddlType
+            // cmbCustomerType
             // 
-            this.ddlType.FormattingEnabled = true;
-            this.ddlType.Items.AddRange(new object[] {
+            this.cmbCustomerType.FormattingEnabled = true;
+            this.cmbCustomerType.Items.AddRange(new object[] {
             "Lead",
             "Customer"});
-            this.ddlType.Location = new System.Drawing.Point(96, 22);
-            this.ddlType.Name = "ddlType";
-            this.ddlType.Size = new System.Drawing.Size(124, 21);
-            this.ddlType.TabIndex = 1;
+            this.cmbCustomerType.Location = new System.Drawing.Point(96, 22);
+            this.cmbCustomerType.Name = "cmbCustomerType";
+            this.cmbCustomerType.Size = new System.Drawing.Size(124, 21);
+            this.cmbCustomerType.TabIndex = 1;
             // 
             // label2
             // 
@@ -213,7 +213,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtBillAmount);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.ddlType);
+            this.Controls.Add(this.cmbCustomerType);
             this.Controls.Add(this.label1);
             this.Name = "guiCustomer";
             this.Text = "Customer";
@@ -226,7 +226,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox ddlType;
+        private System.Windows.Forms.ComboBox cmbCustomerType;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtBillAmount;
         private System.Windows.Forms.Label label3;

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ICustomerInterface;
+using System;
 
 namespace CustomerLibrary
 {
-    public class CustomerBase
+    public class CustomerBase: ICustomer
     {
         public string CustomerName { get; set; }
         public string PhoneNumber { get; set; }
@@ -12,6 +13,14 @@ namespace CustomerLibrary
         public virtual void Validate()
         {
             // Let this be define by the child classes 
+        }
+
+        public ICustomer Clone()
+        {
+            /*In order to create a “Clone” of a .NET object we have ready made “MemberwiseClone” function.In the base class 
+             * of the customer we have implemented the same.With this approach any other type of customer class who is 
+             * inheriting will also have the ability to clone objects.*/
+            return (ICustomer)this.MemberwiseClone();
         }
     }
     public class Customer: CustomerBase
