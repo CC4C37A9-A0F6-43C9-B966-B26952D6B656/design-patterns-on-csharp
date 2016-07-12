@@ -15,7 +15,7 @@ namespace ICustomerInterface
         decimal BillAmount { get; set; }
         DateTime BillDate { get; set; }
         string Address { get; set; }
-        void Validate();
+        //void Validate();
         /*Step 10:- Implementing cloning (Prototype pattern)
         Now the above factory pattern class has a defect, can you guess what it is ?.
         icust = Factory.Create(0);
@@ -32,5 +32,6 @@ namespace ICustomerInterface
         /// </summary>
         /// <returns></returns>
         ICustomer Clone();// Added an extra method clone 
+        void Validate();
     }
 }

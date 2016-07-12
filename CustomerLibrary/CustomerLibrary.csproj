@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CustomerBase.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerAllValidation.cs" />
+    <Compile Include="Lead.cs" />
+    <Compile Include="LeadValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
