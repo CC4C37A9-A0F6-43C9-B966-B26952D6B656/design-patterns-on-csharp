@@ -29,7 +29,7 @@ namespace Creational
             var adapter = new OleDbDataAdapter();
             adapter.SelectCommand = new OleDbCommand("select * from Pattern");
             adapter.SelectCommand.Connection
-                = new OleDbConnection("");
+                = new OleDbConnection(@"Provider=SQLNCLI11;Data Source=PC-WANDERSON\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=DbCustomer");
             var myRenderer = new DataRenderer(adapter);
 
             var writer = new StringWriter();
