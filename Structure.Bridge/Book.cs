@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Structure.Bridge
+namespace Structure.Bridge01
 {
     public class Book : ManuScript
     {

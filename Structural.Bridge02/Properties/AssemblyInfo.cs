@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Structure.Bridge01")]
+[assembly: AssemblyTitle("Structural.Bridge02")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Structure.Bridge01")]
+[assembly: AssemblyProduct("Structural.Bridge02")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("73fb4d23-fe1d-4532-8117-92cc85ae266f")]
+[assembly: Guid("a2fd4389-2a73-46ac-9d29-7b8a45427d0c")]
 
 // Version information for an assembly consists of the following four values:
 //

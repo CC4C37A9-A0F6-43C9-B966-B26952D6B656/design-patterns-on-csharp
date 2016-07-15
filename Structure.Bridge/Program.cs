@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Structure.Bridge
+namespace Structure.Bridge01
 {
     internal class Program
     {
@@ -15,7 +15,7 @@ namespace Structure.Bridge
             var formatter = new ReverseFormatter();
 
             var faq = new Faq(formatter);
-            faq.Title = "111 The Bridge pattern FAQ";
+            faq.Title = "111 The Bridge01 pattern FAQ";
             faq.Questions.Add("What is it?", "A design pattern");
             faq.Questions.Add("When do we use it?", "When you need to separate an abstraction from an implementation");
             //faq.Print();

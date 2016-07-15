@@ -1,9 +1,9 @@
-﻿using Structure.Bridge;
+﻿using Structure.Bridge01;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Structure.Bridge
+namespace Structure.Bridge01
 {
     public class Faq : ManuScript
     {

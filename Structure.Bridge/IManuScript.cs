@@ -1,4 +1,4 @@
-﻿namespace Structure.Bridge
+﻿namespace Structure.Bridge01
 {
     public abstract class ManuScript
     {
