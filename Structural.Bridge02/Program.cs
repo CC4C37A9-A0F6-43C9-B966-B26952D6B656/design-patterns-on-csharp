@@ -29,6 +29,11 @@ namespace Structural.Bridge02
         private string quantity;
         private string name;
 
+        public Product()
+        {
+            //1000
+        }
+
         public Product(string line)
         {
             int i = line.IndexOf("--");
